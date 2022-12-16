@@ -18,5 +18,25 @@
         }
     ],
     "functionName": "carWash" 
+  },
+  {
+    "label": "Inspection 🕵🏻‍♂️",
+    "addressOrName": "0x2529b04577b3cc134BDfd469607DAD18AB947aD1",
+    "contractInterface": [
+        {
+            "type": "function", 
+            "stateMutability": "nonPayable",
+            "outputs": [], 
+            "name": "carInspection", 
+            "inputs": [
+                { 
+                    "type": "uint256", 
+                    "name": "_tokenId", 
+                    "internalType": "uint256" 
+                }
+            ]
+        }
+    ],
+    "functionName": "carInspection" 
   }
 ]
