@@ -38,5 +38,28 @@
         }
     ],
     "functionName": "carInspection" 
+  },
+  {
+    "label": "TopUp Budget 🎟",
+    "addressOrName": "0x32A73b0028E00b52C5Cd76A4c0974aEC2a4Ffb92",
+    "contractInterface": [
+        {
+            "type": "function", 
+            "stateMutability": "payable",
+            "outputs": [], 
+            "name": "topUpCarWashServiceBudget", 
+            "inputs": [
+                { 
+                    "type": "uint256", 
+                    "name": "_tokenId", 
+                    "internalType": "uint256" 
+                }
+            ]
+        }
+    ],
+    "functionName": "topUpCarWashServiceBudget",
+    "overrides": {
+        "value": "10000000000000000000"
+    }
   }
 ]
